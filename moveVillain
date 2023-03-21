@@ -1,0 +1,9 @@
+void moveVillain(int i){  //빌런움직임
+  x[i] += vx[i];
+  y[i] += vy[i];
+  villain(x[i],y[i]);
+  if(x[i]>width) x[i] = 0;
+  if(x[i]<0) x[i] = width;
+  if(y[i]>height) y[i] = 0;
+  if(y[i]<0) y[i] = height;
+}
