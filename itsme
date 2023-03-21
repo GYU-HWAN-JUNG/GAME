@@ -1,0 +1,12 @@
+void itsme(){ //공주인공
+  fill(0);
+  circle(t,s,r);
+  fill(119,78,78);
+  circle(t,s+r/60,r*7/30);
+  fill(255);
+  circle(t-r/12,s-r/10,r/6);
+  circle(t+r/12,s-r/10,r/6);
+  fill(0);
+  circle(t-2.5,s-r/10,r/20);
+  circle(t+2.5,s-r/10,r/20);
+}
